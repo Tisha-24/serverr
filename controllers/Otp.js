@@ -1,7 +1,7 @@
 import OTP from "../models/otp.js"
-import generateOTP from "../utils/generateOTP.js";
-import sendEmail from "../utils/sendEmail.js";
-import { hashData , verifyHashedData } from "../utils/hashData.js";
+import generateOTP from "../Utils/generateOTP.js";
+import sendEmail from "../Utils/sendEmail.js";
+import { hashData , verifyHashedData } from "../Utils/hashData.js";
 
 const { AUTH_USERNAME } = process.env
 
